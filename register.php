@@ -1,7 +1,7 @@
 <?php
   include('includes/config.php');
   include('includes/classes/Account.php');
-  include('includes/classes/constants.php');
+  include('includes/classes/Constants.php');
   $account = new Account($conn);
 
 
@@ -59,12 +59,13 @@
               <p>
                 <?php echo $account->getError(Constants::$loginFailed);?>
               <label for="loginUsername">Username</label>
-              <input type="text" name="loginUsername" id="loginUsername" placeholder="Username" value="<?php getInputValue('loginUsername')?>" required>
+              <input type="text" name="loginUsername" id="l Failed opening 'includes/classes/constants.php' for inclusion (include_path='.:/usr/share/php') in /dados/Spotify_php/register.php on line 4
+oginUsername" placeholder="Username" value="<?php getInputValue('loginUsername')?>" required>
               </p>
               <p>
 
                 <label for="loginPassword">Password</label>
-                <input type="text" name="loginPassword" id="loginPassword" required>
+                <input type="password" name="loginPassword" id="loginPassword" required>
               </p>
               <button type="submit" name="loginButton">Login</button>
               <div class="hasAccountText">

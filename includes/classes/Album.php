@@ -8,7 +8,6 @@
     private $genre;
     private $artworkPath;
 
-
     public function __construct($conn, $id){
         $this->conn = $conn;
         $this->id = $id;

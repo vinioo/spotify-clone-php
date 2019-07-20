@@ -1,1 +1,17 @@
-# spotifyclone
+# What is this project?
+This repository contains a spotify clone made in PHP.
+
+## What i've learned?
+- How to apply PHP Object Oriented on pratice
+- Ajax
+- Php Validations
+
+## Project
+![](spotifyphp.gif)
+
+
+## Final thoughts
+It was my first PHP big project. I learned the most essentials concepts of OOP by partice and it helped me a lot.
+
+## Special thanks
+A special thanks to [@ReeceKenney](https://github.com/ReeceKenney) for sharing this awesome content and knowledge.

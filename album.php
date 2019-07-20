@@ -9,7 +9,7 @@
     $album = new Album($conn, $albumId);
     $artist = $album->getArtist();
 ?>
-
+d
   <div class="entityInfo">
       <div class="leftSection">
         <img src="<?php echo $album->getArtworkPath(); ?>" alt="">
