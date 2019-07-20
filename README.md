@@ -4,6 +4,7 @@ This repository contains a spotify clone made in PHP.
 ## What i've learned?
 - How to apply PHP Object Oriented on pratice
 - Ajax
+- Javascript audio/validations
 - Php Validations
 
 ## Project
